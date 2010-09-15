@@ -1,0 +1,17 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    leftright (0.9.0)
+    rack (1.2.1)
+    rack-test (0.5.4)
+      rack (>= 1.0)
+    sinatra (1.0)
+      rack (>= 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  leftright
+  rack-test
+  sinatra
