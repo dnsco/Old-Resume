@@ -1,0 +1,12 @@
+{{#jobs}}
+  <h2>{{position}}</h2>
+  <h3>{{company}}</h3>
+  <span>{{start-date}} - {{end-date}}</span>
+  <ul>
+    {{#acomplishments}}
+      <li>{{to_s}}</li>
+    {{/acomplishments}}
+  </ul>
+  <span>Utilized: {{#tools}}{{to_s}}, {{/tools}}</span>
+{{/jobs}}
+
