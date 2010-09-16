@@ -4,9 +4,9 @@
   <span>{{start-date}} - {{end-date}}</span>
   <ul>
     {{#acomplishments}}
-      <li>{{to_s}}</li>
+      <li>{{.}}</li>
     {{/acomplishments}}
   </ul>
-  <span>Utilized: {{#tools}}{{to_s}}, {{/tools}}</span>
+  <span>Utilized: {{#tools}}{{.}}, {{/tools}}</span>
 {{/jobs}}
 
