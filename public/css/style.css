@@ -41,11 +41,6 @@ footer, header, hgroup, menu, nav, section {
 
 nav ul { list-style:none; }
 
-blockquote, q { quotes:none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after { content:''; content:none; }
-
 a { margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; }
 
 ins { background-color:#ff9; color:#000; text-decoration:none; }
@@ -128,15 +123,12 @@ pre {
   white-space: pre; /* CSS2 */
   white-space: pre-wrap; /* CSS 2.1 */
   white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
-  word-wrap: break-word; /* IE */
 }
 
 /* align checkboxes, radios, text inputs with their label
 by: Thierry Koblentz tjkdesign.com/ez-css/css/base.css */
 input[type="radio"] { vertical-align: text-bottom; }
 input[type="checkbox"] { vertical-align: bottom; }
-.ie7 input[type="checkbox"] { vertical-align: baseline; }
-.ie6 input { vertical-align: text-bottom; }
 
 /* hand cursor on clickable input elements */
 label, input[type=button], input[type=submit], button { cursor: pointer; }
@@ -158,11 +150,6 @@ a:link { -webkit-tap-highlight-color: #FF5E99; }
 www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
 button { width: auto; overflow: visible; }
  
-/* bicubic resizing for non-native sized IMG:
-code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
-.ie7 img { -ms-interpolation-mode: bicubic; }
-
-
 
 /*
 * Non-semantic helper classes
@@ -207,8 +194,16 @@ h1, h3, h4 { padding-bottom: 5px;}
 	top: 0px;
 	left: 400px;
 	padding-left: 20px;
+	padding-bottom: 20px;
 }
 
+#main ul {
+	padding: 10px;
+}
+
+#main ul li { margin-bottom: 10px;}
+
+span.time { font-weight: bold; margin: 5px 0px 0px;}
 section {padding-top: 20px;}
 
 #sidebar { 
