@@ -1,0 +1,13 @@
+<section id="education">
+	<h2>Education</h2>
+	{{#madagascar}}
+		<h3>{{institution}}</h3>
+		<h4>{{focus}}</h4>
+		<span>{{start-date}} - {{end-date}}</span>
+		<ul>
+			{{#accomplishments}}
+				<li>{{.}}</li>
+			{{/accomplishments}}
+		</ul>
+	{{/madagascar}}
+</section>

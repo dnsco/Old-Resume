@@ -1,10 +1,14 @@
 { 
-	"company"	  : "The Madagascar Institute",
-  "location"  : "Brooklyn, New York &amp; Stradbally, Ireland",
-	"role"		  : "Project Manager/Artsar",
-	"time"		  : "2007-2008",
-	"points"	  : [ 
-    "Facilitated a positive group working dynamic, while making sure no hands remained idle in the creation of large scale interactive metal art.",
-    "Interfaced with clients addressing the needs and requirements of both parties, while looking fabulous in a welding jumpsuit."
-	]
+	"madagascar": {
+		"institution"			: "The Madagascar Institute",
+		"location"				: "Brooklyn, New York &amp; Stradbally, Ireland",
+		"focus"						: "Project Manager/Artstar",
+		"start-date"			: "2007",
+		"end-date"				: "2008",
+		"accomplishments"	: [ 
+			"Facilitated a positive group working dynamic, while making sure no hands remained idle in the creation of large scale interactive metal art.",
+			"Interfaced with clients addressing the needs and requirements of both parties.",
+			"looking fabulous in a welding jumpsuit."
+		]
+	}
 }

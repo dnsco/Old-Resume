@@ -5,17 +5,19 @@
 			"position": "Web Application Engineer",
 			"start-date": "December 2009",
 			"end-date": "September 2010",
-			"acomplishments": [
-				"Greenfield development of Ruby on Rails application for civic activism through social networking."
+			"accomplishments": [
+				"Greenfield Developed a social ballot application that allows users to easily and efficiently find and share trusted sources and opinions about elections and civic activism.",
+				"Participated in all levels of the develpment and organization from backend architcture design/implimentation to user experience design/implimentation and operations planning.",
+				"Wrote a modular authentication sub-system that integrated users existing accounts and social graphs from twitter and facebook.",
 				],
-			"tools": [ "Ruby", "Rack", "Rails 3", "jQuery" ]
+			"tools": [ "Rails 3", "Ruby", "Rack", "jQuery", "Warden", "TwitterAPI", "FacebookAPI" ]
 	},
 	{
 		"company": 			"Internaut Design",
 		"position": 		"Web Application Developer",
 		"start-date": 	"July 2009",
 		"end-date": 		"December 2009",
-		"acomplishments": [
+		"accomplishments": [
 			"Optimized Ruby code and database query generation to improve ScrumNinja performance, bringing 8s actions to ~300ms.",
 			"Divided monolithic application into several cooperating web services, which allowed us to outsource the majority of our systems administartion to Heroku, yielding a more stable production environment."
 			],
@@ -26,7 +28,7 @@
 		"position": "Web Application and Systems Administration Intern",
 		"start-date": "June 2009",
 		"end-date": "January 2010",
-		"acomplishments": [
+		"accomplishments": [
 			"Learned the ropes of using behavior driven development, pair programming, and other XP techniques on client work while getting acquainted with the codebase of Internaut's product, ScrumNinja.",
 			"Optimized Internaut's server platform, utilizing technologies such as HAProxy and Nginx and writing custom Unix system scripts"
 			],
