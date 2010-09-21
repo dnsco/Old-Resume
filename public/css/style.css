@@ -204,7 +204,8 @@ h1, h3, h4 { padding-bottom: 5px;}
 #main ul li { margin-bottom: 10px; list-style-type: circle;}
 
 span.time { font-weight: bold; margin: 5px 0px 0px;}
-section {padding-top: 20px;}
+section {padding-top: 15px;}
+section#education {padding-top: 10px;}
 
 #sidebar { 
 	text-align: right;
