@@ -7,7 +7,7 @@
 			"accomplishments": [
 				"Greenfield Developed a social ballot application that allows users to easily and efficiently find and share trusted sources and opinions about elections and civic activism.",
 				"Participated in all levels of the develpment and organization from backend architcture design/implimentation to user experience design/implimentation and operations planning.",
-				"Wrote a modular authentication sub-system that integrated users existing accounts and social graphs from twitter and facebook.",
+				"Wrote a modular authentication sub-system that integrated users existing accounts and social graphs from twitter and facebook."
 				],
 			"tools": [ "Rails 3", "Ruby", "Rack", "jQuery", "Warden", "TwitterAPI", "FacebookAPI" ]
 	},

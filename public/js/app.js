@@ -3,9 +3,8 @@
 		this.use(Sammy.Handlebars, 'hb');
 		this.around(function(callback){
 			var context = this;
-			this.load('/data/jobs.json')
-			.then(function(jobs){ context.jobs = jobs;})
-			.then(this.load('/data/madagascar.json').then(function(madagascar){context.madagascar = madagascar;}))
+			this.load('/data/madagascar.json').then(function(madagascar){ context.madagascar = madagascar;})
+			.then(this.load('/data/jobs.json').then(function(jobs){ context.jobs = jobs;}))
 			.then(callback);
 			window.hoe = context;
 		});
