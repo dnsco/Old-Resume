@@ -1,5 +1,4 @@
-{
-	"jobs": [
+[
 	{
 		"company": "Circle Voting",
 			"position": "Web Application Engineer",
@@ -34,5 +33,4 @@
 			],
 		"tools": [ "Ruby", "Rack", "Sinatra", "Ruby on Rails",  "jQuery" ]
 	}
-	]
-}
+]
