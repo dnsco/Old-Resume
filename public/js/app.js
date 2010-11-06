@@ -1,6 +1,8 @@
 (function($) {
 	var app = $.sammy('#main', function(){
 		this.use(Sammy.Handlebars, 'hb');
+		// this.raise_errors = true;
+		// this.debug = true;
 		this.around(function(callback){
 			var context = this;
 			this.load('/data/madagascar.json').then(function(madagascar){ context.madagascar = madagascar;})
