@@ -3,7 +3,7 @@
 		this.use(Sammy.Handlebars, 'hb');
 		this.around(function(callback){
 			context = this;
-			this.load('/json/jobs.json')
+			this.load('/data/jobs.json')
 			.then(function(jobs){ context.jobs = jobs;})
 			.then(this.load('/json/madagascar.json').then(function(madagascar){context.madagascar = madagascar;}))
 			.then(callback);
@@ -11,9 +11,8 @@
 		});
 
 		this.get('#/', function(context) {
-			this.load('/json/madagascar.json').then(function(stuff){
-				$.glue.render('jobs', '/json/jobs.json', function(html){$('#main').append(html);});
-			}).then(function(){
+			this.partial('/templates/jobs.hb')
+			.then(function(){
 				$.glue.render('madagascar', '/json/madagascar.json', function(html){$('#main').append(html);});
 			});
 		});
