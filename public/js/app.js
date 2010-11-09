@@ -12,10 +12,9 @@
 		});	
 
 		this.get('#/resume', function(context) {
-			this.load('/data/madagascar.json').then(function(madagascar){ context.madagascar = madagascar;})
-			.then(this.load('/data/jobs.json').then(function(jobs){ context.jobs = jobs;}))
+			this.load('/data/jobs.json').then(function(jobs){ context.jobs = jobs;})
+			.then(this.load('/data/madagascar.json').then(function(madagascar){ context.madagascar = madagascar;}))
 			.then(function(){
-
 				this.partial('/templates/jobs.hb')
 				.then(function(){
 					this.render('/templates/madagascar.hb').appendTo(context.$element());
