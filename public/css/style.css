@@ -182,14 +182,13 @@ Author: Dennis Collinson
 
 h1{font-size: 2em;}
 h2{font-size: 2.3em; color: #aaa;}
-h3{font-size: 1.5em;}
+h3{font-size: 1.4em;}
 h4{font-size: 1.3em;}
 
-h1, h3, h4 { padding-bottom: 5px;}
+h3, h4 { padding-bottom: 5px;}
 
 #main {
 	width: 600px;
-	display: inline-block;
 	position: absolute;
 	top: 0px;
 	left: 400px;
@@ -218,6 +217,7 @@ section#education {padding-top: 10px;}
 }
 
 #sidebar nav {display: inline;  text-align: center;}
-nav h1, nav h3 {display: inline-block; margin-left: auto; margin-right: auto;}
-nav a {margin-right: 2.5em;}
-
+nav ul { margin-top: 13px; margin-right: 2em;}
+nav h3 { margin-top: 2px; }
+nav a { text-decoration: none;}
+nav a:hover {text-decoration: underline;}

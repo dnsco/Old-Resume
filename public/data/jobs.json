@@ -12,15 +12,15 @@
 			"tools": [ "Rails 3", "Ruby", "Rack", "jQuery", "Warden", "TwitterAPI", "FacebookAPI" ]
 	},
 	{
-		"company": 			"Internaut Design",
-		"position": 		"Web Application Developer",
-		"start-date": 	"July 2009",
-		"end-date": 		"December 2009",
+		"company": "Internaut Design",
+		"position": "Web Application Developer",
+		"start-date": "July 2009",
+		"end-date": "December 2009",
 		"accomplishments": [
 			"Optimized Ruby code and database query generation to improve ScrumNinja performance, bringing 8s actions to ~300ms.",
 			"Divided monolithic application into several cooperating web services, which allowed us to outsource the majority of our systems administration to Heroku, yielding a more stable production environment."
 			],
-		"tools": ["Ruby", "Rack", "Sinatra", "Ruby on Rails",	"jQuery"]	
+		"tools": ["Ruby", "Rack", "Sinatra", "Ruby on Rails", "jQuery"]	
 	},
 	{
 		"company": "Internaut Design",
