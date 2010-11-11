@@ -1,5 +1,5 @@
 (function($) {
-  $("#resume_link").click(function(){$("#res_formats").show("slow");});
+  $("#resume_link").click(function(){$("#res_formats").slideToggle("fast");});
 
 	var app = $.sammy('#main', function(){
 		this.use(Sammy.Handlebars, 'hb');
