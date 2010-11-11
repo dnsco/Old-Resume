@@ -185,8 +185,6 @@ h2{font-size: 2.3em; color: #aaa;}
 h3{font-size: 1.4em;}
 h4{font-size: 1.3em;}
 
-h3, h4 { padding-bottom: 5px;}
-
 #main {
 	width: 600px;
 	position: absolute;
@@ -195,6 +193,8 @@ h3, h4 { padding-bottom: 5px;}
 	padding-left: 20px;
 	padding-bottom: 20px;
 }
+
+#main h3, #main h4 { padding-bottom: 5px;}
 
 #main ul {
 	padding: 10px;
@@ -206,6 +206,9 @@ span.time { font-weight: bold; margin: 5px 0px 0px;}
 section {padding-top: 15px;}
 section#education {padding-top: 10px;}
 
+section#contact_header { border-bottom: 1px solid #aaa;}
+#contact_header h1 { display: inline;}
+#city { margin-top: 1em;}
 #sidebar { 
 	text-align: right;
 	position: fixed;
@@ -216,8 +219,19 @@ section#education {padding-top: 10px;}
 	padding-right: 20px;
 }
 
-#sidebar nav {display: inline;  text-align: center;}
 nav ul { margin-top: 13px; margin-right: 2em;}
-nav h3 { margin-top: 2px; }
+nav ul li { margin-bottom: 5px;}
 nav a { text-decoration: none;}
 nav a:hover {text-decoration: underline;}
+nav div#resume_link {
+	display: inline;
+}
+
+#resume_link h5 { 
+	font-weight: normal; 
+	font-size: 1.1em; 
+}
+
+#res_formats {display: none;}
+
+.right{ float: right;}

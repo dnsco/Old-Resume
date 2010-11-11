@@ -1,5 +1,5 @@
 @media print {
-  * { background: transparent !important; color: #444 !important; text-shadow: none !important; }
+  * { background: transparent !important; color: #444 !important; text-shadow: none !important; } 
 
   a, a:visited { color: #444 !important; text-decoration: underline; }
 
@@ -18,4 +18,30 @@
   p, h2, h3 { orphans: 3; widows: 3; }
 
   h2, h3{ page-break-after: avoid; }
+
+	h2{font-size: 1.5em; color: #777;}
+
+	#sidebar {display: none;}
+
+	#main { 
+		width: auto;
+		position: relative;
+		top: 0px;
+		left: 0px;
+		padding: 0px;
+		padding-top: 0px;
+  }
+	
+	section#main {padding-top: -20px;}
+	
+	h2, h3{padding-bottom: 2px;}
+	h3 {font-size: 1.2em;}
+	h4 { display: inline;}
+	span.time {margin: 0; color: #aaa !important;}
+
+	section#contact_header { padding-top: 0; }
+	section#education section {margin-left: 20px;}
+	section.job{ margin-left: 20px;}
+	#main ul{padding: 0px; padding-bottom: 0px; padding-top: 5px; list-style-type: disc; }
+	#main ul li { list-style-type: disc; }
 }

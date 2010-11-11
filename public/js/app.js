@@ -1,4 +1,6 @@
 (function($) {
+  $("#resume_link").click(function(){$("#res_formats").show("slow");});
+
 	var app = $.sammy('#main', function(){
 		this.use(Sammy.Handlebars, 'hb');
 		// this.raise_errors = true;
@@ -21,6 +23,11 @@
 				});
 			});
 		});
+
+		this.get('#/print', function(context) {
+			this.render('/templates/contact.hb').prependTo(context.$element());
+		});
+
 	});
 
 	$(document).ready(function(){
