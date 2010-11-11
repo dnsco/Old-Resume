@@ -21,11 +21,13 @@
 				.then(function(){
 					this.render('/templates/madagascar.hb').appendTo(context.$element());
 				});
+				
 			});
 		});
 
 		this.get('#/print', function(context) {
-			this.render('/templates/contact.hb').prependTo(context.$element());
+			this.render('/templates/contact.hb').prependTo(context.$element())
+			.then(function(){window.print();});
 		});
 
 	});

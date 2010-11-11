@@ -42,6 +42,6 @@
 	section#contact_header { padding-top: 0; }
 	section#education section {margin-left: 20px;}
 	section.job{ margin-left: 20px;}
-	#main ul{padding: 0px; padding-bottom: 0px; padding-top: 5px; list-style-type: disc; }
+	/*#main ul{padding: 0px; padding-bottom: 0px; padding-top: 5px; list-style-type: disc; }*/
 	#main ul li { list-style-type: disc; }
 }
