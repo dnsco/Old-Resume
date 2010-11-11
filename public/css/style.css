@@ -206,7 +206,7 @@ span.time { font-weight: bold; margin: 5px 0px 0px;}
 section {padding-top: 15px;}
 section#education {padding-top: 10px;}
 
-section#contact_header { border-bottom: 1px solid #aaa;}
+section#contact_header { padding-bottom: 5px; border-bottom: 1px solid #aaa;}
 #contact_header h1 { display: inline;}
 #city { margin-top: 1em;}
 #sidebar { 
