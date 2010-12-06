@@ -1,5 +1,15 @@
 [
 	{
+		"company": "self",
+			"position": "Web Devlopment Consultant",
+			"start-date": "November 2010",
+			"end-date": "present",
+			"accomplishments": [
+				"Consulted for stealth mode startup developing financial and client facing systems"
+				],
+			"tools": [ "jQuery", "Rails 3", "Ruby", "Rack" ]
+	},
+	{
 		"company": "Circle Voting",
 			"position": "Web Application Engineer",
 			"start-date": "December 2009",
