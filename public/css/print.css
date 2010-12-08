@@ -44,6 +44,7 @@
 		page-break-after: always;
 		page-break-inside: avoid;
 								}
+	hr { display: none; }
 	section#education section {margin-left: 20px;}
 	section.job{ margin-left: 20px;}
 	/*#main ul{padding: 0px; padding-bottom: 0px; padding-top: 5px; list-style-type: disc; }*/
