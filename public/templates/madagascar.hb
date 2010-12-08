@@ -1,4 +1,4 @@
-<br id="print-break"/>
+<br>
 <hr>
 <section id="education">
 	<h2>Education</h2>
